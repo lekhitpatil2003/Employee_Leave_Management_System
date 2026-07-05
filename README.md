@@ -252,14 +252,15 @@ private static final String PASSWORD = "your_mysql_password";
 
 ## 🖼️ Screenshots
 
-| | |
-|---|---|
-| **Login Page** ![Login Page](screenshots/login-page.png) | **Admin Dashboard** ![Admin Dashboard](screenshots/admin-dashboard.png) |
-| **Employee Dashboard** ![Employee Dashboard](screenshots/employee-dashboard.png) | **Manage Employees** ![Manage Employees](screenshots/manage-employees.png) |
-| **Apply Leave** ![Apply Leave](screenshots/apply-leave.png) | **Leave Approval** ![Leave Approval](screenshots/leave-approval.png) |
-| **Profile Page** ![Profile Page](screenshots/profile-page.png) | |
-
-> 📌 Add your own screenshots to a `/screenshots` folder in the repository root using the file names above.
+ **Login Page** ![Login Page](screenshots/login_page.png) 
+ **Admin Login** ![Admin Dashboard](screenshots/admin_login.png) 
+ **Employee Login** ![Admin Dashboard](screenshots/employee_login.png) 
+ **Admin Dashboard** ![Admin Dashboard](screenshots/admin_dashboard.png) 
+ **Employee Dashboard** ![Employee Dashboard](screenshots/employee_dashboard.png)  
+ **Manage Employees** ![Manage Employees](screenshots/manage_employee.png) 
+ **Apply Leave** ![Apply Leave](screenshots/apply_leave.png)  
+ **Leave Request** ![Leave request](screenshots/leave_requests.png) 
+ **Employee Profile Page** ![Profile Page](screenshots/employee_profile.png) 
 
 ---
 
