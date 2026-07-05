@@ -1,0 +1,146 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(135deg, #0f172a, #1e3a8a, #2563eb);
+}
+
+.container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.login-card {
+	width: 420px;
+	background: rgba(255, 255, 255, 0.12);
+	backdrop-filter: blur(15px);
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	border-radius: 25px;
+	padding: 40px;
+	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+}
+
+.header {
+	text-align: center;
+	color: white;
+	margin-bottom: 35px;
+}
+
+.icon-box {
+	width: 90px;
+	height: 90px;
+	background: white;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.icon-box i {
+	font-size: 40px;
+	color: #2563eb;
+}
+
+.header h1 {
+	margin-bottom: 10px;
+	font-size: 32px;
+}
+
+.header p {
+	color: #dbeafe;
+	font-size: 14px;
+}
+
+.input-group {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.input-group i {
+	position: absolute;
+	left: 15px;
+	top: 17px;
+	color: #64748b;
+}
+
+.input-group input {
+	width: 100%;
+	padding: 15px 15px 15px 45px;
+	border: none;
+	border-radius: 10px;
+	outline: none;
+	font-size: 15px;
+}
+
+.options {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 25px;
+	color: white;
+	font-size: 14px;
+}
+
+.options a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.login-btn {
+	width: 100%;
+	padding: 15px;
+	border: none;
+	border-radius: 10px;
+	background: white;
+	color: #2563eb;
+	font-size: 17px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.login-btn:hover {
+	background: #1e3a8a;
+	color: white;
+	transform: translateY(-3px);
+}
+
+.footer {
+	text-align: center;
+	margin-top: 25px;
+}
+
+.footer a {
+	color: white;
+	text-decoration: none;
+}
+
+.error-message {
+	background: #ffe5e5;
+	color: #d8000c;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	text-align: center;
+	font-weight: bold;
+}
+.success-message {
+	background: #e6ffed;
+	color: #0a7a2f;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	text-align: center;
+	font-weight: bold;
+}

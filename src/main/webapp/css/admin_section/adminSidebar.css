@@ -1,0 +1,155 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Segoe UI', sans-serif;
+}
+
+.sidebar {
+	width: 270px;
+	height: 100vh;
+	background: linear-gradient(180deg, #0f172a, #1e293b);
+	position: fixed;
+	left: 0;
+	top: 0;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 5px 0 20px rgba(0, 0, 0, 0.15);
+	overflow: hidden;
+}
+
+.logo-section {
+	text-align: center;
+	padding: 25px 15px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.logo {
+	width: 150px;
+	height: 60px;
+	margin: auto;
+	margin-bottom: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: white;
+	border-radius: 20px;
+	box-shadow: 0 5px 15px rgb(255, 255, 255, 0.6);
+}
+
+.logo img {
+	width: 150px;
+	height: auto;
+}
+
+.logo-section h2 {
+	color: white;
+	letter-spacing: 1px;
+}
+
+.logo-section p {
+	color: #cbd5e1;
+	font-size: 13px;
+	margin-top: 5px;
+}
+
+.menu {
+	list-style: none;
+	padding: 15px 10px;
+	flex: 1;
+	overflow-y: auto;
+}
+
+.menu li {
+	margin-bottom: 6px;
+}
+
+.menu li a {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	text-decoration: none;
+	color: #e2e8f0;
+	padding: 14px 18px;
+	border-radius: 12px;
+	transition: 0.3s;
+}
+
+.menu li a:hover {
+	background: #dc2626;
+	color: white;
+	transform: translateX(5px);
+}
+
+.menu li a i {
+	width: 22px;
+	text-align: center;
+	font-size: 16px;
+}
+
+.menu::-webkit-scrollbar {
+	width: 4px;
+}
+
+.menu::-webkit-scrollbar-thumb {
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 10px;
+}
+
+.submenu-items {
+	display: none;
+	list-style: none;
+	padding-left: 20px;
+	background: #0d126f;
+}
+
+.submenu-items li a {
+	display: block;
+	padding: 10px 15px;
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.submenu-items li a:hover {
+	color: white;
+}
+
+.submenu-btn {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.arrow {
+	transition: 0.3s;
+}
+
+.submenu.active .submenu-items{
+	display: block;
+	background: #23252a;
+}
+
+.submenu.active .arrow {
+	transform: rotate(180deg);
+}
+
+.logout-section {
+	padding: 15px;
+	border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.logout-section a {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	text-decoration: none;
+	color: #ef4444;
+	padding: 14px;
+	border-radius: 12px;
+	transition: 0.3s;
+}
+
+.logout-section a:hover {
+	background: rgba(239, 68, 68, 0.15);
+}
