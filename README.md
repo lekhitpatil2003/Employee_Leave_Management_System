@@ -1,9 +1,6 @@
 <div align="center">
 
 # 🗂️ ELMS — Employee Leave Management System
-
-### A full-stack Java web application for managing employee leave requests, built with Servlets, JSP, JDBC, and MySQL.
-
 </div>
 
 ---
